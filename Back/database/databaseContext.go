@@ -19,4 +19,8 @@ func InitDB(source string) {
 	inits.DB = DB
 	// Execute inits
 	inits.CreateUserTable()
+	inits.CreateTaskTable()
+	inits.CreateMailTable()
+	inits.CreateMailServiceTable()
+	inits.CreateMailRecipentsTable()
 }

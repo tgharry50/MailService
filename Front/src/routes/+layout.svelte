@@ -2,6 +2,7 @@
 	import Header from '../layout/header.svelte';
 	import Footer from '../layout/footer.svelte';
 	import SideMenu from '../layout/sideMenu.svelte';
+	import 'carbon-components-svelte/css/white.css';
 </script>
 
 <div class="page-container">

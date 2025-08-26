@@ -35,6 +35,7 @@
 		"@iconify-icons/fa-solid": "^1.2.4",
 		"@iconify/svelte": "^5.0.1",
 		"axios": "^1.11.0",
+		"carbon-components-svelte": "^0.89.6",
 		"pinia": "^3.0.3"
 	}
 }

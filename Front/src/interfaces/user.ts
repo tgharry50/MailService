@@ -10,7 +10,7 @@ export interface User{
     active: boolean;
 }
 
-export type UserAdd = Omit<User, 'id' | 'active' | 'uuid'>;
+export type UserCreate = Omit<User, 'id' | 'active' | 'uuid'>;
 
-export type UserEdit = Omit<User, 'id'>
+export type UserUpdate = Omit<User, 'id'>
 
